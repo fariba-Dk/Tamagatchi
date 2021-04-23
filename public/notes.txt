@@ -1,0 +1,132 @@
+AQUARIUM - EGGS
+
+HATCH
+
+baby yoda
+
+https://tenor.com/view/baby-yoda-egg-babyyodaeggshatching-baby-yoda-hungry-gif-19190380
+
+~~~~~~~~~~~ tenor ~~~~~~~~~
+purple DINO hatching baby
+
+https://tenor.com/view/pokemon-sword-pokemon-shield-egg-hatching-breeding-gif-20862328
+
+~~~~~~~~~~~ tenor ~~~~~~~~~
+purple DINO hatching baby
+
+https://tenor.com/view/hatching-dinosaur-egg-the-land-before-time-animated-gif-3463140
+
+~~~~~~~~~~~ tenor ~~~~~~~~~
+egg baby hatch in real life
+
+https://tenor.com/view/platypus-hatching-hatch-gif-10551275
+
+angry bird HATCHING
+https://tenor.com/view/angry-bird-baby-egg-shell-sneak-out-gif-16328361
+
+~~~~~~~~~~~ EGG ~~~~~~~~~
+cat hatching
+
+https://tenor.com/view/cat-egg-hatch-fat-chubby-gif-17269903
+
+~~~~~~~~~~~ EGG ~~~~~~~~~
+dino hatching
+
+https://tenor.com/view/geraldthe-jurassic-giant-dinosaur-im-here-egg-hatch-gif-14457032
+
+
+~~~~~~~~~~~ EGG ~~~~~~~~~
+egg hatching but pet stays in
+
+https://tenor.com/view/gudetama-gif-4711512
+
+~~~~~~~~~~~ EGG ~~~~~~~~~
+Birth Day Of Whale GIF
+
+https://tenor.com/view/%E5%90%9E%E5%90%9E%E9%AF%A8%E7%9A%84%E8%AA%95%E7%94%9F%E6%97%A5-birth-day-of-whale-egg-animation-hatching-gif-16722155
+
+~~~~~~~~~~~ EGG ~~~~~~~~~
+you suck
+
+https://tenor.com/view/you-suck-cracked-egg-tiktok-hatching-gif-17611838
+
+~~~~~~~~~~~ EGG ~~~~~~~~~
+EGG HATCH:
+duck morphasism to giant
+
+https://tenor.com/view/smg4-duck-egg-hatching-egg-gif-15502731
+
+
+~~~~~~~~~~~ PLAY ~~~~~~~~~
+pet is playing in yard
+https://tenor.com/view/pokemon-sword-pokemon-shield-egg-hatching-breeding-gif-20862328
+
+~~~~~~~~~~ BUTTONS ~~~~~
+<span itemscope="true" itemtype="http://schema.org/Organization"><a class="navbar-brand" itemprop="url" activeclassname="current" href="/"><img src="/assets/img/tenor-logo.svg" width="80" height="22" alt="Tenor" itemprop="logo"></a></span>
+
+
+<img src="/assets/icons/upload-icon.svg">
+
+~~~~~~~~~~~ FEED ~~~~~~~~~~~
+https://tenor.com/view/yakisoba-noodles-gif-12381980
+
+~~~~~~ CHARACTERS ~~~~~~~~~~
+https://www.gamesradar.com/pokemon-go-will-be-trialing-a-new-egg-hatching-feature-for-some-players/
+
+
+~~~~~ CHARACTORS ~~~~~~~~
+
+https://gfycat.com/stickers
+
+
+
+Specifications
+Create a repo for your tamagotchi pet
+make a commit after you finish each one of the following
+Create a Class (JS Class, look at your notes if your forget) for your tamagotchi
+Instatiate your Tamagotchi
+Display a character of your choice on the screen to represent your pet
+Display the following metrics for your pet:
+Hunger (1-10 scale)
+Sleepiness (1-10 scale)
+Boredom (1-10 scale)
+Age
+Add buttons to the screen to feed your pet, turn off the lights, and play with your pet.
+Add the ability to name your pet.
+Style the page.
+Increase your pet's age every x minutes
+Increase your pet's Hunger, Sleepiness, and Bored metrics on an interval of your choosing.
+You pet should die if Hunger, Boredom, or Sleepiness hits 10.
+Animate your pet across the screen while it's alive.
+Extras
+Morph your pet at certain ages.
+Have your tamagotchi give birth to baby tamagotchi...
+...with special powers (extend the class)!
+Add an excercise() method to your tamagotchi, that affects certain properties
+Add anything you can think of... use your imagination!
+
+
+ecifications
+Create a repo for your tamagotchi pet
+make a commit after you finish each one of the following
+Create a Class (JS Class, look at your notes if your forget) for your tamagotchi
+Instatiate your Tamagotchi
+Display a character of your choice on the screen to represent your pet
+Display the following metrics for your pet:
+Hunger (1-10 scale)
+Sleepiness (1-10 scale)
+Boredom (1-10 scale)
+Age
+Add buttons to the screen to feed your pet, turn off the lights, and play with your pet.
+Add the ability to name your pet.
+Style the page.
+Increase your pet's age every x minutes
+Increase your pet's Hunger, Sleepiness, and Bored metrics on an interval of your choosing.
+You pet should die if Hunger, Boredom, or Sleepiness hits 10.
+Animate your pet across the screen while it's alive.
+Extras
+Morph your pet at certain ages.
+Have your tamagotchi give birth to baby tamagotchi...
+...with special powers (extend the class)!
+Add an excercise() method to your tamagotchi, that affects certain properties
+Add anything you can think of... use your imagination!
