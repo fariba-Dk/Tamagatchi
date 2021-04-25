@@ -1,81 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+  <head>              <!-- HEAD  -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--  favicon CSS  -->
-
-    <link rel="apple-touch-icon" href="./img/favicon-16x16.png" />
-
-    <!-- Main CSS -->
-
-    <link href="./img/EasterBunny.ttf" rel="stylesheet"/>
-
-    <link rel="stylesheet" href="./styles/main.css" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="styles/main.css" />
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- JS  -->
-    <script src="./app/scripts" defer></script>
+    <script src="./scripts/app.js" defer></script>
 
-    <title>Tamagatchi</title>
-
+    <title>T a m a g a t c h i</title>
   </head>
-
+              <!-- BODY  -->
   <body>
-    <header class= "header" >
-      <h1>Tamagatchi</h1>
-      <h2 class="timer" ></h2>
-      <button class="timer">Timer</button>
-    </header>
     <main>
-    <section class="main-container">
+      <div class="main-container">
 
-      <img class='background-img'src="https://media1.tenor.com/images/e0634a5cf3567fc7c3cb9a5d53b6f496/tenor.gif?itemid=19190380"
-      />
-      <!--  -->
-<!-- "https://doy2mn9upadnk.cloudfront.net/uploads/default/original/4X/9/a/a/9aa041e93f971ba830b5b05619a7527bc52cab2c.gif" -->
-<!--  -->
-      </section>
+      <h1>T A M A G A T C H I </h1>
+      <button id="start" >Hey, a li'l help over here!
+      </button>
 
-      <section class="controls">
+      <section class="controls hidden">
+        <img src="https://media.tenor.com/images/378eb6018e43bab87bcdc304d1d17d17/tenor.gif"
+        />
 
-          <button class="start" onclick="startFunction()">SOS! Save Me! </button>
-          <input type= "button" class="give-name" value="">
+        <input type="text" class="food1"/>
+          <button class="food"> Feed Me! </button>
 
+          <input type="text" class="bored"/>
+          <button class="play"> Lets Play! </button>
 
-          <div>
-            <input type="text" id="hunger" value=0></input>
-            <span id="timer"></span>
-            <button type="button" class="increment-btn-hunger"> Feed! </button>
-          </div>
-
-          <div>
-            <input type="text" id="boredom" value=0></input>
-            <span id="timer"></span>
-            <button type="button" class="increment-btn-boredom"> Play! </button>
-          </div>
-
-          <div>
-            <input type="text" id="sleep" value=0></input>
-            <span id="timer"></span>
-            <button type="button" class="increment-btn-sleep"> Zzzz! </button>
-          </div>
-
-           <div>
-            <input type="text" id="age" value=0></input>
-            <span id="timer"></span>
-            <button type="button" class="increment-btn-sleep">Age</button>
-           </div>
-
-        </section>
-        </main>
+          <input type="text" class="rest"/>
+          <button class="sleep"> Let's Rest </button>
+       </section>
+      </div>
+    </main>
   </body>
 </html>
-
 
 
 

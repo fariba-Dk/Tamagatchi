@@ -130,3 +130,65 @@ Have your tamagotchi give birth to baby tamagotchi...
 ...with special powers (extend the class)!
 Add an excercise() method to your tamagotchi, that affects certain properties
 Add anything you can think of... use your imagination!
+
+
+html
+<!DOCTYPE html>
+<html lang="en">
+  <head>              <!-- HEAD  -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./styles/main.css" />
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JS  -->
+    <script src="./scripts/app.js" defer></script>
+
+    <title>Tamagatchi</title>
+  </head>
+              <!-- BODY  -->
+  <body>
+
+    <section class="main-container">
+
+      <h2 class="timer" value=0>Time</h2>
+
+      <button class="start">Help!<button></button>
+
+      <input type= "button" class="give-name" value="">
+
+      <div>
+        <input type="text" id="hunger" value=0></input>
+        <button type="button" class="increment-btn-hunger"> Feed! </button>
+      </div>
+
+      <div>
+        <input type="text" id="boredom" value=0></input>
+        <span id="timer"></span>
+        <button type="button" class="increment-btn-boredom"> Play! </button>
+      </div>
+
+      <div>
+        <input type="text" id="sleep" value=0></input>
+        <span id="timer"></span>
+        <button type="button" class="increment-btn-sleep"> Zzzz! </button>
+      </div>
+
+      <div>
+        <input type="text" id="age" value=0></input>
+        <span id="timer"></span>
+        <button type="button" class="increment-btn-sleep">Age</button>
+      </div>
+
+      </section>
+  </body>
+</html>
+
+
+
+
