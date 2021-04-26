@@ -192,3 +192,105 @@ html
 
 
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>              <!-- HEAD  -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JS  -->
+    <script src="./scripts/app.js" defer></script>
+
+    <title>T a m a g o t c h i </title>
+  </head>
+              <!-- BODY  -->
+  <body>
+    <main>
+      <div class="main-container">
+
+      <h1>T A M A G O T C H I</h1>
+      <button id="start" >Hey, a li'l help over here!
+      </button>
+
+      <section class="controls hidden">
+        <img src="https://media.tenor.com/images/378eb6018e43bab87bcdc304d1d17d17/tenor.gif"
+        />
+
+        <input type="text" class="food1"/>
+          <button class="food"> Feed Me! </button>
+
+          <input type="text" class="bored"/>
+          <button class="play"> Lets Play! </button>
+
+          <input type="text" class="rest"/>
+          <button class="sleep"> Let's Rest! </button>
+       </section>
+      </div>
+    </main>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>              <!-- HEAD  -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JS  -->
+    <script src="./scripts/app.js" defer></script>
+
+    <title>T a m a g o t c h i </title>
+
+  </head>
+              <!-- BODY  -->
+  <body>
+    <main>
+      <div class="main-container">
+
+      <h1>T A M A G O T C H I</h1>
+
+       <button class="petName"> My name is: </button>
+          <input type="text" class="name"/>
+
+          <h2 class='timer' id="timer"></h2>
+
+       <button id="start" >Save Me From Baby Yoda!
+      </button>
+
+      <section class="controls hidden">
+        <img src="https://media.tenor.com/images/378eb6018e43bab87bcdc304d1d17d17/tenor.gif"
+        />
+
+            <h2 id="hunger">Hungry</h2>
+          <button class="food"> Feed Me!</button>
+          <h2 id="bored">Bored</h2>
+          <button class="play"> Lets Play!</button>
+          <h2 id="tired">Tired</h2>
+          <button class="sleep"> Let's Rest!</button>
+
+       </section>
+      </div>
+    </main>
+  </body>
+</html>
+
+

@@ -23,7 +23,9 @@ h1{
   color:rgb(52, 241, 52);
   font-size: 80px;
 }
-
+h2{
+  font-size: 20px;
+}
 .main-container {
   width: 100vw;
   height: 100vh;
@@ -32,17 +34,22 @@ h1{
   background-size: cover;
 }
 
-h2 {
-  text-align: left;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.name{
+  text-align: right top;
   color:black;
-  font-size: 30px;
+  font-family: arial;
+  padding: 15px 12px;
+  border-radius: 8px;
+  background-color: green;
+  font-size: 28px;
 }
-
-div {
-  width: 1000px;
-  height: 800px;
-  background-color: red;
+.petName {
+   background-color: green;
+  color: white;
+  font-size: 25px;
+  font-family: arial;
+  padding: 18px 15px;
+  border-radius: 8px;
 }
 
 .hidden{
@@ -50,40 +57,14 @@ div {
 }
 
 img{
-  height: 600px;
-  width:600px;
-  position: center;
-}
+  height: 1000px;
+  width:1000px;
+  position: absolute;
 
-.food{
-    background-color: green;
-  color: white;
-  font-size: 25px;
-  font-family: arial;
-  padding: 18px 15px;
-  border-radius: 8px;
 }
-.{
-    background-color: green;
-  color: white;
-  font-size: 25px;
-  font-family: arial;
-  padding: 18px 15px;
-  border-radius: 8px;
-}
-.sleep{
-    background-color: green;
-  color: white;
-  font-size: 25px;
-  font-family: arial;
-  padding: 18px 15px;
-  border-radius: 8px;
-}
-
-/* START bUTTON */
 #start {
-  top: 80%;
-  right: 20%;
+  top: 1180%;
+  right: 520%;
   background-color: green;
   color: white;
   font-size: 25px;
@@ -98,10 +79,75 @@ img{
 #start:hover {
   background-color: rgb(27, 2, 22);
 }
-
- .timer{
-  position: right;
-  height: 12px;
-  width: 30px;
+#hunger{
+  font-size: 50px;
+  color:white;
 
 }
+
+#tired{
+ font-size: 50px;
+  color:white;
+
+}
+#bored{
+ font-size: 50px;
+  color:white;
+}
+ #timer{
+  position: right;
+  color:white;
+  height: 32px;
+  width: 30px;
+  font-size: 30px;
+  font-family:arial;
+}
+#age{
+  position: right;
+  color:white;
+  height: 32px;
+  width: 30px;
+  font-size: 30px;
+  font-family:arial;
+}
+
+.food{
+  background-color: green;
+    color:white;
+  font-size: 25px;
+  font-family: arial;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+    margin: 20px;
+}
+
+.sleep{
+  background-color: green;
+  color:white;
+  font-size: 25px;
+  font-family: arial;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.play{
+   background-color: green;
+    color:white;
+  font-size: 25px;
+  font-family: arial;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+    margin: 20px;
+}
+
+#hunger-bar{
+  color: green;
+}
+

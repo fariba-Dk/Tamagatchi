@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 
   <head>              <!-- HEAD  -->
     <meta charset="UTF-8" />
@@ -15,34 +13,43 @@
     <!-- JS  -->
     <script src="./scripts/app.js" defer></script>
 
-    <title>T a m a g a t c h i</title>
+    <title>T a m a g o t c h i </title>
   </head>
               <!-- BODY  -->
   <body>
     <main>
       <div class="main-container">
 
-      <h1>T A M A G A T C H I </h1>
-      <button id="start" >Hey, a li'l help over here!
+      <h1>T A M A G O T C H I</h1>
+  <button id="start" >Name ME & Push This!
       </button>
 
-      <section class="controls hidden">
+          <input type="text" class="name">
+          <h2 class='timer' id="timer"></h2>
+
+      <section class="controls">
         <img src="https://media.tenor.com/images/378eb6018e43bab87bcdc304d1d17d17/tenor.gif"
         />
 
-        <input type="text" class="food1"/>
-          <button class="food"> Feed Me! </button>
+          <li>
+            <button id="food" class="food"> Let's Eat!</button>
+            <meter id="hunger-bar" value="0" min="0" max="30"></meter>
 
-          <input type="text" class="bored"/>
-          <button class="play"> Lets Play! </button>
+          <li><button class="sleep"> Let's Rest</button>
+            <meter id="tired-bar" value="0" min="0" max="30"></meter>
 
-          <input type="text" class="rest"/>
-          <button class="sleep"> Let's Rest </button>
+            <li><button class="play"> Let's Play!</button>
+            <meter id="bored-bar-" value="0" min="0" max="30"></meter>
+
        </section>
       </div>
     </main>
   </body>
 </html>
 
-
-
+   <!-- <h2 id="hunger">Hungry</h2>
+          <button class="food"> Feed Me!</button>
+          <h2 id="bored">Bored</h2>
+          <button class="play"> Lets Play!</button>
+          <h2 id="tired">Tired</h2>
+          <button class="sleep"> Let's Rest!</button> -->
