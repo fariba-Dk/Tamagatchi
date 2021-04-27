@@ -17,31 +17,38 @@
   </head>
               <!-- BODY  -->
   <body>
+    <audio>
+      <source src="">
+    </audio>
     <main>
       <div class="main-container">
 
       <h1>T A M A G O T C H I</h1>
-  <button id="start" >Name ME & Push This!
-      </button>
-
+        <button id="start" >Name ME & Push This!
+          </button>
           <input type="text" class="name">
-          <h2 class='timer' id="timer"></h2>
 
-      <section class="controls">
+
+          <div class="control-holder">
+
+          <section class="controls hidden">
         <img src="https://media.tenor.com/images/378eb6018e43bab87bcdc304d1d17d17/tenor.gif"
         />
-
-          <li>
             <button id="food" class="food"> Let's Eat!</button>
-            <meter id="hunger-bar" value="0" min="0" max="30"></meter>
+            <meter id="hunger-bar" value="0" min="0" max="31"></meter>
 
-          <li><button class="sleep"> Let's Rest</button>
-            <meter id="tired-bar" value="0" min="0" max="30"></meter>
+            <button id="sleep" class="sleep"> Let's Rest</button>
+            <meter id="tired-bar" value="0" min="0" max="31"></meter>
 
-            <li><button class="play"> Let's Play!</button>
-            <meter id="bored-bar-" value="0" min="0" max="30"></meter>
+          <button id="play" class="play"> Let's Play!</button>
+            <meter id="bored-bar" value="0" min="0" max="31"></meter>
+
+             <button id="age" class="age"> Age</button>
+            <meter id="age-bar" value="0" min="0" max="300"></meter>
+            <h2 class='timer' id="timer"></h2>
 
        </section>
+          </div>
       </div>
     </main>
   </body>

@@ -1,6 +1,5 @@
 class Pet {
   constructor(character) {
-    this.character = character;
     this.age = 0; // start -> 0/1
     this.boredom = 20;
     this.hungry = 20;
@@ -16,20 +15,21 @@ document.getElementById('start').addEventListener('click', function (event) {
   event.target.remove();
 });
 
-
 function counter() {
   let timer = 0;
 
   let timerIntervals = setInterval(function () {
      timer++;
      pet.age++;
-    if (timer == 30) {
+     console.log(pet)
+     $('#age-bar').val(pet.age);
+    if (timer == 130) {
       clearInterval(timerIntervals);
       console.log('Game Over!');
     } else {
-      // console.log('Time is kicking ' + timer);
+
       $('#timer').text(timer);
-      $('#age').text(pet.age)
+     // $('#age').text(pet.age)
     }
   }, 1000);
 }
@@ -41,11 +41,10 @@ $('#start').on('click', function () {
 //pet.age++;~~~~~~~~~~~~~~~~~~~~~~~~~~~~ another place
 function hungerFunction() {
   const counter = setInterval(() => {
-
     pet.hungry++;
    // $('#hunger').text(pet.hungry);
    $("#hunger-bar").val(pet.hungry)
-    if (pet.hungry > 51) {
+    if (pet.hungry > 31) {
       //set interval runs every sec
       alert(`Game Over!`);
       clearInterval(counter);
@@ -58,19 +57,20 @@ function feedMe() {
   console.log('Hi im feedMe');
   pet.hungry--;
   $('#hunger-bar').val(pet.hungry);
+  console.log('feedMe button is working ');
 
 }
 $('#food').on("click", feedMe);
-
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 function boredFunction() {
   const counter = setInterval(() => {
     pet.boredom++;
-    $('#bored').text(pet.boredom);
+    $('#bored-bar').val(pet.boredom);
 
     if (pet.boredom > 31) {
       //set interval runs every sec
-      window(`Game Over!`);
+      alert(`Game Over!`);
       clearInterval(counter);
     }
   }, 3000);
@@ -79,14 +79,16 @@ boredFunction();
 
 function playWithMe() {
   pet.boredom--;
-  $('#bored').text(pet.boredom);
+  $('#bored-bar').val(pet.boredom);
+   console.log('playWithMe button is working');
 }
-$('.play').on(playWithMe);
+$('#play').on("click", playWithMe);
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 function sleepFunction() {
   const counter = setInterval(() => {
-    pet.tired++;
-    $('#tired').text(pet.sleep);
+    pet.sleep++;
+    $('#tired-bar').val(pet.sleep);
     if (pet.sleep > 31) {
       //set interval runs every sec
       alert(`Game Over!`);
@@ -98,9 +100,10 @@ sleepFunction();
 
 function rest(){
   pet.sleep--;
-  $('#tired').text(pet.sleep)
+  $('#tired-bar').val(pet.sleep)
+  console.log('rest is gooood')
 }
-$('.sleep').click(rest())
+$('#sleep').on("click", rest)
 
 
 
