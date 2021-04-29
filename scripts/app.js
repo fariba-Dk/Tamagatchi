@@ -23,7 +23,7 @@ function counter() {
      pet.age++;
      console.log(pet)
      $('#age-bar').val(pet.age);
-    if (timer == 130) {
+    if (timer == 30) {
       clearInterval(timerIntervals);
       console.log('Game Over!');
     } else {
