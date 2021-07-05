@@ -8,6 +8,6 @@ To create a working Tamagotchi-inspired game with an animated pet.
 * CSS
 * Javascript
 * JQuery
-[View Demo](https://fariba-dk.github.io/Tamagatchi/)
+* [View Demo](https://fariba-dk.github.io/Tamagatchi/)
 
 *note: to attack url: [View Demo] ..then put url in set of parans
